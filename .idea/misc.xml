@@ -1,0 +1,57 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/arrow_back.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/border_for_icon.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/curve_toolbar_1.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/edit_text_background.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/ic_group_112.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/installed_app_icon_svg.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/main_icon.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/menu_icon_svg.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/more_asset.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/phone_update_icon_svg.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/rate_us_vector.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/round_button.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/drawable/search_icon.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_custom_dialogue_permissions.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_device_info.xml" value="0.24010416666666667" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_dialogue.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_installed_apps.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_latest_update.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_operating_system.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_permissions.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_scan_all_apps.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_system_apps.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_uninstall_apps.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/activity_update_animator.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/app_list_layout.xml" value="0.2" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/device_info_table_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/deviceinfo_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/drawer_main.xml" value="1.0" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/installed_apps_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/main_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/permissions_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/toolbar_latest_update.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/layout/uninstalled_apps_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1775" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/mipmap-anydpi-v26/icon_app_main.xml" value="0.124" />
+        <entry key="..\:/FluterApp/Internship_task_1/app/src/main/res/mipmap-anydpi-v26/icon_app_main_round.xml" value="0.124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

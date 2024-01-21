@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.infideap.drawerbehavior.Advance3DDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/light_green"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <include
+                android:id="@+id/toolbar_main_id"
+                layout="@layout/main_toolbar" />
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_green">
+
+            <ImageView
+                android:id="@+id/image_main_icon"
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_210sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/main_icon"
+                android:transitionName="logo_image" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_main_icon"
+                android:layout_centerInParent="true"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:text="Update your all apps in\n few mins"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/installed_apps_id"
+                    android:layout_width="@dimen/_95sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="5dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/installed_app_icon_svg" />
+
+                        <TextView
+                            android:id="@+id/textview_xaxis_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Installed Apps"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/systemApps"
+                    android:layout_width="@dimen/_95sdp"
+                    android:layout_height="@dimen/_100sdp"
+
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/system_apps_icon_svg" />
+
+                        <TextView
+                            android:id="@+id/textview_xaxis_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="System Apps"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phoneId1"
+                    android:layout_width="@dimen/_95sdp"
+                    android:layout_height="@dimen/_100sdp"
+
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/scan_apps_icon_svg" />
+
+                        <TextView
+                            android:id="@+id/textview_xaxis_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Scan Apps"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout5"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/deviceInfoId"
+                    android:layout_width="@dimen/_95sdp"
+                    android:layout_height="@dimen/_100sdp"
+
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="5dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/device_info_icon_svg" />
+
+                        <TextView
+                            android:id="@+id/textview_xaxis_0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Device Info"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/uninstallAppsId"
+                    android:layout_width="@dimen/_95sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/uninstall_app_icon_svg" />
+
+                        <TextView
+                            android:id="@+id/textview_xaxis_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Uninstall Apps"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/phone_id"
+                    android:layout_width="@dimen/_95sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+                    android:layout_marginVertical="@dimen/_2sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/phone_update_icon_svg" />
+
+                        <TextView
+                            android:id="@+id/textview_xaxis_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Phone Update"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_main"
+        android:background="@color/light_green"
+        app:headerLayout="@layout/nav_header"
+        >
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</com.infideap.drawerbehavior.Advance3DDrawerLayout>

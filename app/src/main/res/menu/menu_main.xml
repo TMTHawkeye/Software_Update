@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/scan_nav"
+        android:title="Scan Apps"
+        android:icon="@drawable/scan_apps_icon_svg"/>
+
+    <item
+        android:id="@+id/info_nav"
+        android:title="Device Info"
+        android:icon="@drawable/device_info_icon_svg"/>
+
+    <item
+        android:id="@+id/nav_rateus"
+        android:title="Rate Us"
+        android:icon="@drawable/rate_asset"
+        />
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback_asset"
+        />
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/privacy_asset"/>
+
+    <item
+        android:id="@+id/share_nav"
+        android:title="Share"
+        android:icon="@drawable/share_vector"/>
+
+</menu>

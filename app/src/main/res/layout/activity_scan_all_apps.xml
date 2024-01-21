@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityScanAllApps">
+
+    <include
+        android:id="@+id/t2"
+        layout="@layout/installed_apps_toolbar"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="412dp"
+        android:layout_height="608dp"
+        android:layout_below="@+id/t2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <RelativeLayout
+        android:id="@+id/r1_icon"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_progress="0.6"
+            app:lottie_rawRes="@raw/lottie_apps_icon"
+            app:lottie_renderMode="automatic"
+            app:lottie_repeatMode="restart"
+            app:lottie_speed="1.0" />
+
+        <ImageView
+            android:id="@+id/scannned_icon"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/scanned_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1_icon"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="App Name"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/scanning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanned_app_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Scanning....."
+        android:textColor="@color/blue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/available_updates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Available updates are : 0"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/updating_out_of_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanning"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:text="Scanning 0/0"
+        android:textColor="@color/blue"
+        android:textSize="15dp" />
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updating_out_of_total"
+        android:layout_centerInParent="true"
+        android:progress="45" />
+
+
+</RelativeLayout>

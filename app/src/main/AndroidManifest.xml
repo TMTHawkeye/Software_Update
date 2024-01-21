@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.internship_task_1">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <queries>
+        <package android:name="com.example.Maps" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_app_main"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme">
+        <activity
+            android:name=".CustomDialoguePermissions"
+            android:exported="false" />
+        <activity
+            android:name=".PermissionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScanAllApps"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUninstallApps"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDeviceInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLatestUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySystemApps"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityInstalledApps"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.project.internship_task_1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

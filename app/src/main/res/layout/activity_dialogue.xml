@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/r_rate_us"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/back_rate_svg">
+
+            <ImageView
+                android:id="@+id/img_rate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_60sdp"
+                android:elevation="@dimen/_18sdp"
+                android:src="@drawable/rate_us_svg" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/t_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r_rate_us"
+            android:layout_centerInParent="true"
+            android:text="Rate us now"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t_2_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t_rate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Give your 10 seconds to rate our app" />
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t_2_rate"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/exit_id"
+                style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:backgroundTint="@color/blue"
+                android:text="Exit"
+                android:textSize="@dimen/_8sdp"
+                app:cornerRadius="50dp" />
+
+            <Space
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/rate_us_id"
+                style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t_2_rate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:backgroundTint="@color/blue"
+                android:text="Rate us"
+                android:textSize="@dimen/_8sdp"
+                app:cornerRadius="50dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
